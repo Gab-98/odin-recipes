@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Tahoma, sans-serif;
     background-color: whitesmoke;
@@ -5,9 +9,22 @@ body {
     text-align: center;
 }
 
-h1 {
-    padding: 20px;
-    margin: 10px;
+.logo {
+    width: auto;
+    height: 60px;
+    display: inline;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.title {
+    font-size: 30px;
+    margin: 11px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(187, 187, 187);
+    font-weight: bold;
 }
 
 h2,
@@ -33,4 +50,34 @@ img {
     padding: 20px;
     margin: 10px;
     vertical-align: top;
+}
+
+button:hover {
+    background-color: #ffc88a;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: orange;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 12px auto;
+    position: relative;
+    left: 600px;
+    padding: 10px;
+}
+
+.nav-bar {
+    padding: 5px;
+    display: inline-flex;
+    width: 1200px;
+    border: 1px solid #ffc88a;
+    border-radius: 30px;
+    margin: 10px 5px;
 }
