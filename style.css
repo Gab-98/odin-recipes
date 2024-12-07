@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: grey;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h3,
+.main-list {
+   color: orange; 
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 30%;
+}
+
+.box {
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
