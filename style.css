@@ -4,8 +4,9 @@
 
 body {
     font-family: Verdana, Tahoma, sans-serif;
-    background-color: whitesmoke;
-    color: grey;
+    background-color: #E3E4DB;
+    color: #1E1F1E;
+    margin: 0;
     text-align: center;
 }
 
@@ -15,7 +16,7 @@ body {
     display: inline;
     float: left;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 300px;
 }
 
 .title {
@@ -23,7 +24,7 @@ body {
     margin: 11px;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(187, 187, 187);
+    color: #E3E4DB;
     font-weight: bold;
 }
 
@@ -32,9 +33,8 @@ h3 {
     font-weight: normal;
 }
 
-h3,
-.main-list {
-   color: orange; 
+h3 {
+   color: #1E1F1E; 
 }
 
 img {
@@ -53,31 +53,29 @@ img {
 }
 
 .link:hover {
-    background-color: #ffc88a;
-    color: whitesmoke;
+    background-color: #E3E4DB;
+    color: #1E1F1E;
     cursor: pointer;
     padding: 10px;
 }
 
 .link {
     text-decoration: none;
-    text-align: center;
-    background-color: transparent;
-    color: orange;
+    color: #E3E4DB;
     border: none;
     border-radius: 30px;
     font-size: 15px;
     margin: 14px;
-    position: relative;
-    left: 580px;
     padding: 10px;
+    position: relative;
+    left: 30%;
 }
 
 .nav-bar {
-    padding: 5px;
-    display: inline-flex;
-    width: 1200px;
-    border: 1px solid #ffc88a;
-    border-radius: 30px;
-    margin: 10px 5px;
+    display: flex;
+    background-color: #1E1F1E;
+    width: 100%;
+    height: 90px;
+    filter: drop-shadow(0 2px 3px #1E1F1E);
+    padding: 10px;
 }
