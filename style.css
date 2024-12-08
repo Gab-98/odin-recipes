@@ -52,24 +52,24 @@ img {
     vertical-align: top;
 }
 
-button:hover {
+.link:hover {
     background-color: #ffc88a;
     color: whitesmoke;
     cursor: pointer;
     padding: 10px;
 }
 
-button {
+.link {
     text-decoration: none;
     text-align: center;
     background-color: transparent;
     color: orange;
     border: none;
     border-radius: 30px;
-    font-size: 20px;
-    margin: 12px auto;
+    font-size: 15px;
+    margin: 14px;
     position: relative;
-    left: 600px;
+    left: 580px;
     padding: 10px;
 }
 
